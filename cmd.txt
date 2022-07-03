@@ -1,0 +1,15 @@
+cd d/ D:\
+cd D:\software\web-layout-training-gulp-master
+
+
+在gulp上傳網站
+git init 
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/xiang7124/ipotato.git
+git push -u origin master 
+
+
+
+gulp build
+gulp deploy
