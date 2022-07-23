@@ -1,0 +1,209 @@
+/* 共用 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 0;
+}
+
+
+
+h1 {
+    font-size: 80px;
+    line-height: 106px;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 84px;
+}
+
+.word1 {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.word2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+.word3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.word4 {
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 16px;
+}
+
+.normalUl {
+    text-align: center;
+}
+
+.pointUl li::before {
+    content: "";
+    border-radius: 50%;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    transform: translate(-16px,2px);
+    background-color: #891818;
+}
+
+.PhotoGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.PhotoSpan {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+/* 首頁區 */
+.Top {
+    height: 958px;
+    background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week2/banner.png') #ebebeb center;
+    background-size: cover;
+}
+
+.Top * {
+    color: #fff;
+}
+
+.TopCore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:300px ;
+}
+
+.Top .word2 {
+    margin-bottom: 40px;
+}
+
+.AppIconDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About區 */
+.About h2 {
+    margin-bottom: 40px;
+}
+
+.AboutPhoto {
+    margin-bottom: 16px;
+}
+
+.About .normalUl {
+    padding-bottom: 20px;
+}
+
+.About .normalUl li {
+    margin: 4px 0;
+}
+
+.About .pointUl {
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+.About .pointUl li {
+    margin-top: 28px;
+}
+
+
+/* Brand區 */
+
+.Brand {
+    background-color: #000;
+}
+
+.Brand * {
+    color: #FFF;
+}
+
+.Brand h2 {
+    margin-bottom: 12px;
+}
+
+.Brand .word1 {
+    margin-bottom: 32px;
+}
+
+.Brand .normalUl {
+    margin-bottom: 68px;
+}
+
+.Brand .PhotoGallery {
+    margin-bottom: 64px;
+    
+}
+
+.Brand .PhotoGallery img {
+    margin:0 0 40px 0 ;
+}
+
+.Brand .PhotoGallery img:nth-child(1) {
+    margin:0 auto 40px auto ;
+}
+
+
+
+/* Other區 */
+.Other h2 {
+    margin-bottom: 16px;
+}
+
+.Other .word3 {
+    margin-bottom: 56px;
+}
+
+.Other .PhotoGallery {
+    margin-bottom: 40px;
+}
+
+
+/* Contact區 */
+
+.Contact {
+    background-color: #000000;
+}
+
+.Contact * {
+    color: #FFF;
+}
+
+.Contact.container {
+    padding: 64px 0;
+}
+
+.Contact .normalUl li {
+    margin-top: 16px;
+}

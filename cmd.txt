@@ -1,8 +1,9 @@
-cd d/ D:\
+cd /d D:\
 cd D:\software\web-layout-training-gulp-master
 
+ctrl+c停止gulp
 
-在gulp上傳網站
+部屬網站(開發環境)先停止gulp
 git init 
 git add .
 git commit -m "first commit"
@@ -10,6 +11,12 @@ git remote add origin https://github.com/xiang7124/ipotato.git
 git push -u origin master 
 
 
-
+更新網站(編譯後的)，先停止gulp(ctrl+c)
 gulp build
 gulp deploy
+
+//網址
+https://github.com/xiang7124/ipotato.git
+
+//資料庫
+https://github.com/xiang7124/ipotato
